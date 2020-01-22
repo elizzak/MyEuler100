@@ -1,0 +1,26 @@
+function multiplesOf3and5(number) {
+  // Good luck!
+  return multiplesof3(number) + multiplesof5(number);
+}
+
+function multiplesof3(number) {
+    var total = 0
+    for (var i=1; i<number; i++) {
+        var next = i*3
+        total += next
+    }
+    return next    
+
+}
+
+function multiplesof5(number) {
+     var total;
+    for (var i=1; i<number; i++) {
+        var next = i*3
+        total += next
+    }
+    return next 
+}
+
+
+multiplesOf3and5(1000);
