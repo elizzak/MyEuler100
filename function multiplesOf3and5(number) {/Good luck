@@ -9,7 +9,7 @@ function multiplesof3(number) {
         var next = i*3
         total += next
     }
-    return next    
+    return total    
 
 }
 
@@ -19,7 +19,7 @@ function multiplesof5(number) {
         var next = i*3
         total += next
     }
-    return next 
+    return total 
 }
 
 
