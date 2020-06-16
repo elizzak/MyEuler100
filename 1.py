@@ -1,33 +1,4 @@
 
-
-# def multiplesof3(number):
-#     total = 0
-#     nexter = 0
-#     i = 1
-#     while nexter < number:
-#         nexter = i*3
-#         total = total + nexter
-#         i = i +1
-#     return total
-# for i in range(1, number):
-#     next = i*3
-#     total = total + next
-# return total
-
-
-# def multiplesofN(number , N):
-#     total = 0
-#     nexter = 0
-#     i = 1
-#     while nexter < number:
-#         print(nexter)
-#         nexter = i * N
-#         if nexter >= number:
-#             break
-#         print(nexter)
-#         total = total + nexter
-#         i = i + 1
-#     return total
 from typing import List, Any
 
 
